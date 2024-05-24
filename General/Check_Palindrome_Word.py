@@ -1,6 +1,7 @@
 """
 Write a function, check_palindrome() to check whether the given string is a palindrome or not.
 The function should return true if it is a palindrome else it should return false.
+Note: Assume that all the letters in the given string are all of the same case.
 """
 
 def check_palindrome(word):
