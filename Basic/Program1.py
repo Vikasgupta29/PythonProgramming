@@ -9,7 +9,6 @@ Find and display the total ticket cost for a group which had adults and children
 
 def calculate_total_ticket_cost(no_of_adults, no_of_children):
     total_ticket_cost=0
-    #Write your logic here
     total_ticket_cost=no_of_adults*37550
     total_ticket_cost+=no_of_children*(37550/3)
     total_ticket_cost+=total_ticket_cost*0.07
