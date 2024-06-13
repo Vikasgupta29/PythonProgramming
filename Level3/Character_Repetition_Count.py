@@ -20,8 +20,7 @@ def encode(message):
             encoded_message+=(str(t_count)+t_char)
             t_char=i
             t_count=1
-            if count==len(message):
-                encoded_message+=(str(t_count)+t_char)
+    encoded_message+=(str(t_count)+t_char)
     return encoded_message
 
 encoded_message=encode("ABBBBCCCCCCCCAB")
