@@ -11,9 +11,7 @@ def encode(message):
     encoded_message=""
     t_char=""
     t_count=""
-    count=0
     for i in message:
-        count+=1
         if i==t_char:
             t_count+=1
         else:
