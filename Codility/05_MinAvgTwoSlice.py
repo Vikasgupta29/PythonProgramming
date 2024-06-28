@@ -34,10 +34,10 @@ def solution(A):
     min_avg = (A[0]+A[1])/2
     pos = 0
     for i in range(2, len(A)):
-        if (A[i] + A[i-1]) / 2 < min_avg:
-            min_avg = (A[i] + A[i-1]) / 2
-            pos = i-1
-        if (A[i] + A[i-1] + A[i-2]) / 3 < min_avg:
-            min_avg = (A[i] + A[i-1] + A[i-2]) / 3
-            pos = i-2
+        if (A[i]+A[i-1])/2 < min_avg:
+            min_avg=(A[i]+A[i-1])/2
+            pos=i-1
+        if (A[i]+A[i-1]+A[i-2])/3 < min_avg:
+            min_avg=(A[i]+A[i-1]+A[i-2])/3
+            pos=i-2
     return pos
